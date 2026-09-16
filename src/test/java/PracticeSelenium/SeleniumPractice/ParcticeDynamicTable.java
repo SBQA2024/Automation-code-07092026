@@ -23,7 +23,7 @@ public class ParcticeDynamicTable {
 		List<WebElement> li = driver.findElements(By.xpath("//*[@id='dataTable']/tbody/tr"));
 		
 		System.out.println("No of rows - " + li.size());
-		
+		qwerty
         List<WebElement> li2 = driver.findElements(By.xpath("//*[@id='dataTable']/tbody/tr[1]/td"));
 		
 		System.out.println("No of columns - " + li2.size());
